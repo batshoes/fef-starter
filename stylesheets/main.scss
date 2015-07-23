@@ -1,9 +1,9 @@
-@import 'jr-framework';
+@import 'ham-framework';
 
 #example-rounded{
   @include rounded-button(7px);
   width: 70px;
-  font: Arial;
+  font-family: $default-font;
   background-color: red;
   color: white;
 }
@@ -19,5 +19,5 @@
   margin: 0 auto;
   width: 50px;
   height: 50px;
-  background: lime;
+  background: red;
 }

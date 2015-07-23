@@ -1,9 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+* {
+  padding: 0; }
+
+.hambar {
+  height: 40px;
+  width: 100%;
+  min-width: 400px;
+  font-family: "Raleway", sans-serif;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 10px; }
+  .hambar ul {
+    color: black; }
+  .hambar li {
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    margin: 20% 10%; }
+    .hambar li:hover {
+      transition: all, 0.7s, ease-in-out;
+      text-shadow: 2px 1px 0.8px black; }
+
 #example-rounded {
   cursor: pointer;
   border-radius: 7px;
   text-align: center;
   width: 70px;
-  font: Arial;
+  font-family: "Raleway", sans-serif;
   background-color: red;
   color: white; }
 
@@ -19,6 +42,6 @@
   margin: 0 auto;
   width: 50px;
   height: 50px;
-  background: lime; }
+  background: red; }
 
 /*# sourceMappingURL=main.css.map */

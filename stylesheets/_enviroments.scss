@@ -1,0 +1,25 @@
+.hambar {
+  height: 40px;
+  width: 100%;
+  min-width: 400px;
+  font-family: $default-font;
+  background-color: rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 10px;
+
+  ul{
+    color: black;
+  }
+  li{
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    margin: 20% 10%;
+    &:hover{
+        transition: all, 0.7s, ease-in-out;
+        text-shadow: 2px 1px 0.8px black;
+    }
+  }
+}
+
+
