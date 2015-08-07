@@ -1,41 +1,107 @@
-<!DOCTYPE html>
-<html>
+  <!DOCTYPE html>
+  <html>
 
-<head>
-  <link rel='stylesheet' href='css/main.css'>
- 
-</head>
+  <head>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js'></script>
+    <script type="text/javascripts" src="javascripts/ham-framework.js"></script>
+    <script type='text/javascripts' src='javascripts/main.js'></script>
+    <link rel='stylesheet' href='css/main.css'>
+  </head>
 
-<body>
+  <body>
 
-  <h2> Rounded button </h2>
-  <p> Create a rounded button with "@include rounded-button([radius in px])"
-  <div class='example-rounded'>Click Me</div>
-
-  <h2> Vertically centered element </h2>
-  <p> Create a vertically centered element with "@include vertically-centered-element"</p>
-  <div id='example-centered-wrapper'>
-    <div id='example-centered'>
-     </div>
-  </div>
-
-  <h2> Hamwork</h2>
-
-  <div class='navbar-wrapper'>
-    <h3>Navbar basic with center text and shadow fade</h3>
-    <div class='hambar'>
-      <ul>
-        <li>Home</li>
-        <li>Info</li>
-        <li>Contact</li>
-      </ul>
+    <div id="sidebar">
+      <img src="ham.png">
+      <h4>hams</h4>
+        <ul>
+          <li>jamons</li>
+          <li>serrano</li>
+          <li>black-forest</li>
+        </ul>
     </div>
-  </div>
+    <div id="mainbar">
+      <h1>Front-End Hamwork</h1>
+      <br>
+
+
+      <h2> rounded button </h2>
+      <div class='example-rounded'>click Me</div>
+      <br>
+      <h2> vertically centered element </h2>
+      <div class='example-wrapper'>
+        <div class='example-centered'>
+        </div>
+      </div>
+      <br>
+      <h2> hamwork</h2>
+      <br>
+      <div class='navbar-wrapper'>
+        <h3>navbar basic with center text and shadow fade</h3>
+        <div class='hambar'>
+          <ul>
+            <li>home</li>
+            <li>info</li>
+            <li>contact</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="element-wrapper">
+        <h3>the hamroll rotation</h3>
+        <div class="hamroll">what happens when you push a pig down a hill?</div>
+      </div>
+      <h3>grid system, to organise your own layout structure</h3>
+         <div class="grid-container">
+          <div class="row">
+              <div class="col-1"><p>col-1</p></div> 
+              <div class="col-1"><p>col-1</p></div> 
+              <div class="col-1"><p>col-1</p></div> 
+              <div class="col-1"><p>col-1</p></div> 
+              <div class="col-1"><p>col-1</p></div> 
+              <div class="col-1"><p>col-1</p></div> 
+          </div> 
+          <div class="row">
+              <div class="col-2"><p>col-2</p></div> 
+              <div class="col-2"><p>col-2</p></div> 
+              <div class="col-2"><p>col-2</p></div> 
+          </div> 
+          <div class="row">
+              <div class="col-3"><p>col-3</p></div> 
+              <div class="col-3"><p>col-3</p></div> 
+          </div> 
+          <div class="row">
+              <div class="col-4"><p>col-4</p></div> 
+              <div class="col-2"><p>col-2</p></div> 
+          </div> 
+          <div class="row">
+              <div class="col-1"><p>col-1</p></div> 
+              <div class="col-5"><p>col-5</p></div> 
+          </div> 
+      </div>
+
+    <div class="form">
+      <div class="field">
+        <label>email<br />
+        <input>
+      </div>
+
+      <div class="field">
+        <label>password<br />
+        <input>
+      </div>
+
+      <div class="button-field">
+        <label>confirm<br />
+        <input>
+      </div>
+
+      <button>log in</button> 
+    </div>
+    
 
 
 
+  </body>
 
-
-</body>
-
-</html>
+  </html>

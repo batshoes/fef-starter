@@ -1,23 +1,54 @@
 @import 'ham-framework';
-
-#example-rounded{
+#sidebar{
+  width: 25%;
+  height: 700px;
+  display: inline-block;
+  float: left;
+  overflow: auto;
+  background-color: #FE9CA3;
+  text-align: center;
+}
+#mainbar{
+  width: 74%;
+  height: 700px;
+  display: inline-block;
+  float: right;
+  overflow: auto;
+}
+.example-rounded{
   @include rounded-button(7px);
   width: 70px;
-  font-family: $default-font;
-  background-color: red;
+  font-family: $raleway;
+  background-color: $DFbackground;
   color: white;
 }
-
-#example-centered-wrapper{
+.example-wrapper{
   width: 70px;
   height: 70px;
   border: thin black solid;
 }
 
-#example-centered{
+.example-centered{
   @include vertically-centered-element;
   margin: 0 auto;
   width: 50px;
   height: 50px;
-  background: red;
+  background: $DFbackground;
+}
+
+.hamroll{
+  height: 200px;
+  width: 200px;
+  background-color: $DFbackground;
+  padding: 10px;  
+}
+
+.element-wrapper{
+  padding: 20px
+}
+
+body {
+  font-family: $raleway;
+  background-color: #FA7D86;
+  color: #DFcolor;
 }

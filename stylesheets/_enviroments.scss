@@ -2,10 +2,11 @@
   height: 40px;
   width: 100%;
   min-width: 400px;
-  font-family: $default-font;
+  font-family: $raleway;
   background-color: rgba(0,0,0,0.2);
   text-align: center;
   padding: 10px;
+  padding-bottom: 14px;
 
   ul{
     color: black;
@@ -18,7 +19,55 @@
     &:hover{
         transition: all, 0.7s, ease-in-out;
         text-shadow: 2px 1px 0.8px black;
+        cursor: pointer;
     }
+  }
+}
+
+.grid-container{
+        width: 100%; 
+        max-width: 1200px;      
+    }
+
+    /*-- our cleafix hack -- */ 
+    .row:before, 
+    .row:after {
+        content:"";
+          display: table ;
+        clear:both;
+    }
+
+    [class*='col-'] {
+        float: left; 
+        min-height: 1px; 
+    }
+
+    .col-1{ width: 16.66%; }
+    .col-2{ width: 33.33%; }
+    .col-3{ width: 50%;    }
+    .col-4{ width: 66.66%; }
+    .col-5{ width: 83.33%; }
+    .col-6{ width: 100%;   }
+
+    .outline, .outline *{
+        outline: 1px solid #49C5A6; 
+    }
+    [class*='col-'] > p {
+     background-color: #458D8A; 
+     padding: 0;
+     margin: 0;
+     text-align: center; 
+     color: #73E0DC; 
+    }
+
+.form{
+  background-color: #DF767E; 
+  width: 200px;
+  margin: 0 auto;
+
+
+  &:field, .button-field{
+    margin:0 auto;
   }
 }
 

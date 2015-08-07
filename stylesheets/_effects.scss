@@ -1,0 +1,17 @@
+.hamroll {
+  transition: transform 5s;
+  &:hover {
+    transform: rotate(1080deg);
+  }
+}
+
+.ham-tooltip {
+  background: rgba(0,0,0, 0.6);
+  color: white;
+  position: absolute;
+  padding: 15px;
+  max-width: 300px;
+  border-radius: 7px;
+
+}
+
